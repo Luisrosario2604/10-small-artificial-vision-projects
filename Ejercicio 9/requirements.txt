@@ -1,0 +1,2 @@
+open3d==0.15.2
+open3d_python==0.3.0.0

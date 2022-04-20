@@ -1,2 +1,0 @@
-# rendu-software-opencv
-Software

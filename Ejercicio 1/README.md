@@ -23,7 +23,7 @@ $ pip install -r requirements.txt
 ## Usage
 
 ```bash
-$ python3 data_augmentation.py --input_dataset=./tiny_imagenet --factor=20 --output_dataset=./augmented_tiny_imagenet
+$ python data_augmentation.py --input_dataset=./tiny_imagenet --factor=20 --output_dataset=./augmented_tiny_imagenet
 ```
 
 ## Authors

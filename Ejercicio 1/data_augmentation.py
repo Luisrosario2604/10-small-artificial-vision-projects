@@ -102,17 +102,17 @@ def generate_images(factor, images, output_dir):
 				rdm_tmp = randint(1, 6)
 
 				if rdm_tmp == 1:
-					new_img = new_img.transpose(method=Image.FLIP_LEFT_RIGHT)
+					new_img = new_img.transpose(method=Image.Transpose.FLIP_LEFT_RIGHT)
 				elif rdm_tmp == 2:
-					new_img = new_img.transpose(method=Image.FLIP_TOP_BOTTOM)
+					new_img = new_img.transpose(method=Image.Transpose.FLIP_TOP_BOTTOM)
 				elif rdm_tmp == 3:
-					new_img = new_img.transpose(method=Image.ROTATE_90)
+					new_img = new_img.transpose(method=Image.Transpose.ROTATE_90)
 				elif rdm_tmp == 4:
-					new_img = new_img.transpose(method=Image.ROTATE_180)
+					new_img = new_img.transpose(method=Image.Transpose.ROTATE_180)
 				elif rdm_tmp == 5:
-					new_img = new_img.transpose(method=Image.ROTATE_270)
+					new_img = new_img.transpose(method=Image.Transpose.ROTATE_270)
 				else:
-					new_img = new_img.transpose(method=Image.TRANSPOSE)
+					new_img = new_img.transpose(method=Image.Transpose.TRANSPOSE)
 
 			new_img.save(output_dir + image[1] + "-" + str(i + 1) + image[2])
 
