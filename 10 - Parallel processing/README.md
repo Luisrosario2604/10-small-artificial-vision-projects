@@ -31,9 +31,7 @@ $ jupyter notebook mediamatcher.ipynb
 
 ## Results
 
-- With 250 images 
-
-- Results :     
+Results with 250 images :     
 - 64.4s with multiprocessing Pool
 - 98.2s without multiprocessing Pool
 
