@@ -5,6 +5,10 @@
 Develop a method for Open3D to filter outliers in a 3D point cloud.
 There are different types of outlier filtering in the literature, in this exercise we will focus our attention on outlier filtering by radius (Python++ module).
 
+## Goals
+
+- Remove outliners of a cloud of 3D points
+
 ## Requirements
 
 * Python 3.7+
