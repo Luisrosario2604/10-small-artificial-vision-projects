@@ -1,12 +1,17 @@
-# Ejercicio 8.2
+# Exercise 8.2
 
-Hacer uso del módulo de seguimiento visual de OpenCV (tracking) para
-hacer seguimiento de un objeto o región de interés en una secuencia de
-video
+#### 👨‍🎓 This project was carried out during my master's degree in computer vision at URJC - Madrid
+
+Use OpenCV visual tracking module to track an object or region of interest in a video sequence.
+
+## Goals
+
+- Use a virtual environement for this exercise
+- Detect and follow the ROI (region of interest)
 
 ## Keys
 
-- 'Q' para salir
+- 'Q' to exit
 
 ## Virtual env
 
@@ -36,7 +41,7 @@ $ deactivate
 * opencv-contrib-python == 3.4.11.45
 
 
-How to install all the requirements (You need to be in the virtual env !) :
+How to install all the requirements (You need to be in the virtual env !):
 ```bash
 $ pip install -r requirements.txt
 ```
@@ -61,6 +66,22 @@ Tracker available :
 * tld
 * medianflow
 * mosse
+
+## Results
+
+<p align="center">
+  <img src="./imgs/result.png">
+</p>
+<p align="center">
+  <i>First result of the detection</i>
+</p>
+
+<p align="center">
+  <img src="./imgs/result1.png">
+</p>
+<p align="center">
+  <i>Second result of the detection</i>
+</p>
 
 ## Authors
 
