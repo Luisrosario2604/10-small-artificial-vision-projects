@@ -44,19 +44,18 @@ def get_arguments():
 def main():
 
     file, min_values, max_values = get_arguments()
-
     cap = cv2.VideoCapture(0)
     cap.set(3, 1280)
     cap.set(4, 720)
 
     cv2.namedWindow("Trackbars")
 
-    cv2.createTrackbar("L - H", "Trackbars", 0, 179, nothing)
-    cv2.createTrackbar("L - S", "Trackbars", 0, 255, nothing)
-    cv2.createTrackbar("L - V", "Trackbars", 0, 255, nothing)
-    cv2.createTrackbar("U - H", "Trackbars", 179, 179, nothing)
-    cv2.createTrackbar("U - S", "Trackbars", 255, 255, nothing)
-    cv2.createTrackbar("U - V", "Trackbars", 255, 255, nothing)
+    cv2.createTrackbar("L - H", "Trackbars", int(min_values[0]), 179, nothing)
+    cv2.createTrackbar("L - S", "Trackbars", int(min_values[1]), 255, nothing)
+    cv2.createTrackbar("L - V", "Trackbars", int(min_values[2]), 255, nothing)
+    cv2.createTrackbar("U - H", "Trackbars", int(max_values[0]), 179, nothing)
+    cv2.createTrackbar("U - S", "Trackbars", int(max_values[1]), 255, nothing)
+    cv2.createTrackbar("U - V", "Trackbars", int(max_values[2]), 255, nothing)
 
     while True:
         if file != 'webcam':
