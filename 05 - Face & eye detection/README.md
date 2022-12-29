@@ -1,16 +1,17 @@
-# Ejercicio 5
+# Exercise 5
 
-Dado un vídeo correspondiente al tráiler de una película
+#### 👨‍🎓 This project was carried out during my master's degree in computer vision at URJC - Madrid
+
+Detecting faces and eyes on a film trailer
 
 ## Goals
 
-- Deteccion de caras
-- Deteccion de ojos
+- Face detection
+- Eye detection
 
 ## Requirements
 
 * Python 3.7+
-
 * opencv_python == 4.5.3.56
 
 How to install all the requirements :
@@ -23,6 +24,15 @@ $ pip install -r requirements.txt
 ```bash
 $ python eyefacedetector.py --video=./media/short_avenger.mp4 --out=./result.avi
 ```
+
+## Results
+
+<p align="center">
+  <img src="./imgs/result.png">
+</p>
+<p align="center">
+  <i>Result of the detection</i>
+</p>
 
 ## Authors
 

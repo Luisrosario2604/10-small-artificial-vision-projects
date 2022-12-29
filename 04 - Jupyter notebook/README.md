@@ -1,10 +1,12 @@
-# Ejercicio 4
+# Exercise 4
 
-Convertir el ejercicio 3 en un Jupyter Notebook
+#### 👨‍🎓 This project was carried out during my master's degree in computer vision at URJC - Madrid
+
+Converting exercise 3 into a Jupyter Notebook
 
 ## Goals
 
-- Convertir el ejercicio 3 en un Jupyter Notebook
+- Converting exercise 3 into a Jupyter Notebook
 
 ## Requirements
 
