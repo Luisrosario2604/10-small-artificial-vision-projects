@@ -45,13 +45,13 @@ $ python visualization.py --file=data/2.pcd
 </p>
 
 <p align="center">
-  <img src="./imgs/result1.png">
+  <img src="./imgs/result3.png">
 </p>
 <p align="center">
   <i>Second image</i>
 </p>
 <p align="center">
-  <img src="./imgs/result3.png">
+  <img src="./imgs/result1.png">
 </p>
 <p align="center">
   <i>Second image after removing outliers</i>
