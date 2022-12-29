@@ -32,29 +32,16 @@ $ python visualization.py --file=data/2.pcd
 ## Result
 
 <p align="center">
-  <img src="./imgs/result2.png">
-</p>
-<p align="center">
-  <i>First image</i>
-</p>
-<p align="center">
   <img src="./imgs/result.png">
 </p>
 <p align="center">
-  <i>First image after removing outliers</i>
-</p>
-
-<p align="center">
-  <img src="./imgs/result3.png">
-</p>
-<p align="center">
-  <i>Second image</i>
+  <i>Visualization of the 3D points</i>
 </p>
 <p align="center">
   <img src="./imgs/result1.png">
 </p>
 <p align="center">
-  <i>Second image after removing outliers</i>
+  <i>After removing outliers</i>
 </p>
 
 ## Authors
