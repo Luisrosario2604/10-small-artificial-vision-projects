@@ -25,7 +25,7 @@ $ pip install -r requirements.txt
 $ python eyefacedetector.py --video=./media/short_avenger.mp4 --out=./result.avi
 ```
 
-## Results
+## Result
 
 <p align="center">
   <img src="./imgs/result.png">
