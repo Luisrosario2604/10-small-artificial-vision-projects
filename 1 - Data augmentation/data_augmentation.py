@@ -71,7 +71,7 @@ def get_arguments():
 		exit(84)
 
 	if not os.path.isdir(output_dir):
-		end_dir = os.getcwd() + "/" + args["output_dataset"]
+		end_dir = f"{os.getcwd()}/" + args["output_dataset"]
 		os.mkdir(end_dir)
 
 	if input_dir[-1] != "/":
