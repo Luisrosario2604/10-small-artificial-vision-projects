@@ -14,17 +14,18 @@ Develop a data augmentation module for convolutional networks in Python.
 
 * Python 3.7+
 
-* Pillow == 8.4.0
+* Pillow ~= 9.1.0
 
 How to install all the requirements :
+
 ```bash
-$ pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
 
 ```bash
-$ python data_augmentation.py --input_dataset=./tiny_imagenet --factor=20 --output_dataset=./augmented_tiny_imagenet
+python data_augmentation.py --input_dataset=./tiny_imagenet --factor=20 --output_dataset=./augmented_tiny_imagenet
 ```
 
 ## Results
@@ -38,4 +39,4 @@ $ python data_augmentation.py --input_dataset=./tiny_imagenet --factor=20 --outp
 
 ## Authors
 
-* **Luis Rosario** - *Initial work* - [Luisrosario2604](https://github.com/Luisrosario2604)
+* **Luis Rosario** - *Member 1* - [Luisrosario2604](https://github.com/Luisrosario2604)

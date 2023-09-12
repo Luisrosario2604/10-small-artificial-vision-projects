@@ -14,20 +14,20 @@ We want to compare the results obtained by a 3D object recognition algorithm.
 
 * Python 3.7+
 
-* matplotlib == 3.3.4
-* numpy == 1.21.3
-* pandas == 1.0.5
-
+* matplotlib ~= 3.3.4
+* numpy ~= 1.21.3
+* pandas ~= 1.0.5
 
 How to install all the requirements :
+
 ```bash
-$ pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
 
 ```bash
-$ python compute_stats.py --inference=./datasets/detection.csv --groundtruth=./datasets/groundtruth.csv --output_graphs=./output_stats
+python compute_stats.py --inference=./datasets/detection.csv --groundtruth=./datasets/groundtruth.csv --output_graphs=./output_stats
 ```
 
 ## Results
@@ -55,4 +55,4 @@ $ python compute_stats.py --inference=./datasets/detection.csv --groundtruth=./d
 
 ## Authors
 
-* **Luis Rosario** - *Initial work* - [Luisrosario2604](https://github.com/Luisrosario2604)
+* **Luis Rosario** - *Member 1* - [Luisrosario2604](https://github.com/Luisrosario2604)

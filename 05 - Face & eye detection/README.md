@@ -12,17 +12,18 @@ Detecting faces and eyes on a film trailer
 ## Requirements
 
 * Python 3.7+
-* opencv_python == 4.5.3.56
+* opencv_python ~= 4.5.3.56
 
 How to install all the requirements :
+
 ```bash
-$ pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
 
 ```bash
-$ python eyefacedetector.py --video=./media/short_avenger.mp4 --out=./result.avi
+python eyefacedetector.py --video=./media/short_avenger.mp4 --out=./result.avi
 ```
 
 ## Result
@@ -36,4 +37,4 @@ $ python eyefacedetector.py --video=./media/short_avenger.mp4 --out=./result.avi
 
 ## Authors
 
-* **Luis Rosario** - *Initial work* - [Luisrosario2604](https://github.com/Luisrosario2604)
+* **Luis Rosario** - *Member 1* - [Luisrosario2604](https://github.com/Luisrosario2604)

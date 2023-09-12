@@ -1,6 +1,5 @@
-imutils==0.5.4
-numpy==1.21.3
-opencv_python==4.5.5.64
-pytesseract==0.3.8
-scikit_image==0.18.3
-skimage==0.0
+imutils~=0.5.4
+numpy~=1.21.3
+opencv_python~=4.5.5.64
+pytesseract~=0.3.8
+scikit_image~=0.18.3

@@ -12,21 +12,23 @@ Converting exercise 3 into a Jupyter Notebook
 
 * Python 3.7+
 
-* matplotlib == 3.3.4
-* numpy == 1.21.3
-* pandas == 1.0.5
+* jupyter ~= 1.0.0
+* matplotlib ~= 3.3.4
+* numpy ~= 1.21.3
+* pandas ~= 1.0.5
 
 How to install all the requirements :
+
 ```bash
-$ pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
 
 ```bash
-$ jupyter notebook compute_stats.ipynb
+jupyter notebook compute_stats.ipynb
 ```
 
 ## Authors
 
-* **Luis Rosario** - *Initial work* - [Luisrosario2604](https://github.com/Luisrosario2604)
+* **Luis Rosario** - *Member 1* - [Luisrosario2604](https://github.com/Luisrosario2604)

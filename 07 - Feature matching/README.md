@@ -15,20 +15,22 @@ Feature matching with shift
 ## Requirements
 
 * Python 3.7+
-* Opencv_python == 4.5.*
+* Opencv_python ~= 4.5.3.56
 
 
 How to install all the requirements :
+
 ```bash
-$ pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
 
 One with minimum matches
+
 ```bash
-$ python mediamatcher.py --query=./media/query/LGE.jpg --covers=./media/covers/
-$ python mediamatcher.py --query=./media/query/Theman.jpg --covers=./media/covers/
+python mediamatcher.py --query=./media/query/LGE.jpg --covers=./media/covers/
+python mediamatcher.py --query=./media/query/Theman.jpg --covers=./media/covers/
 ```
 
 ## Results
@@ -56,4 +58,4 @@ $ python mediamatcher.py --query=./media/query/Theman.jpg --covers=./media/cover
 
 ## Authors
 
-* **Luis Rosario** - *Initial work* - [Luisrosario2604](https://github.com/Luisrosario2604)
+* **Luis Rosario** - *Member 1* - [Luisrosario2604](https://github.com/Luisrosario2604)

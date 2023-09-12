@@ -17,23 +17,22 @@ Apply the OpenCV text detection and recognition module (text) to the number plat
 
 * Python 3.7+
 
-* imutils == 0.5.4
-* numpy == 1.21.3
-* opencv_python == 4.5.*
-* pytesseract == 0.3.8
-* scikit_image == 0.18.3
-* skimage == 0.0
-
+* imutils ~= 0.5.4
+* numpy ~= 1.21.3
+* opencv_python ~= 4.5.5.64
+* pytesseract ~= 0.3.8
+* scikit_image ~= 0.18.3
 
 How to install all the requirements :
+
 ```bash
-$ pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
 
 ```bash
-$ python text_recognition.py --image=media/test5.jpg
+python text_recognition.py --image=media/test5.jpg
 ```
 
 ## Results
@@ -54,4 +53,4 @@ $ python text_recognition.py --image=media/test5.jpg
 
 ## Authors
 
-* **Luis Rosario** - *Initial work* - [Luisrosario2604](https://github.com/Luisrosario2604)
+* **Luis Rosario** - *Member 1* - [Luisrosario2604](https://github.com/Luisrosario2604)

@@ -13,24 +13,27 @@ There are different types of outlier filtering in the literature, in this exerci
 
 * Python 3.7+
 
-* open3d == 0.15.2
-* open3d_python == 0.3.*
+* open3d ~= 0.15.2
+* open3d_python ~= 0.3.0.0
 
 How to install all the requirements :
+
 ```bash
-$ pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
 
 Usage of main algorithm
+
 ```bash
-$ python outlier_removal.py --ipc=data/2.pcd --points=16 --radius=0.05 --opc=resulting_could.pcd
+python outlier_removal.py --ipc=data/2.pcd --points=16 --radius=0.05 --opc=resulting_could.pcd
 ```
 
 Bonus : If you want to visualize a 3D file
+
 ```bash
-$ python visualization.py --file=data/2.pcd
+python visualization.py --file=data/2.pcd
 ```
 
 ## Result
@@ -50,4 +53,4 @@ $ python visualization.py --file=data/2.pcd
 
 ## Authors
 
-* **Luis Rosario** - *Initial work* - [Luisrosario2604](https://github.com/Luisrosario2604)
+* **Luis Rosario** - *Member 1* - [Luisrosario2604](https://github.com/Luisrosario2604)

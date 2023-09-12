@@ -11,17 +11,18 @@ We are still interested in recognising objects in images. This time it is the tu
 ## Requirements
 
 * Python 3.7+
-* opencv_python == 4.5.*
+* opencv_python ~= 4.5.3.56
 
 How to install all the requirements :
+
 ```bash
-$ pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Usage
 
 ```bash
-$ python pedestriandetector.py --images=./data --out=./pedestrian_result.avi
+python pedestriandetector.py --images=./data --out=./pedestrian_result.avi
 ```
 
 ## Result
@@ -49,4 +50,4 @@ $ python pedestriandetector.py --images=./data --out=./pedestrian_result.avi
 
 ## Authors
 
-* **Luis Rosario** - *Initial work* - [Luisrosario2604](https://github.com/Luisrosario2604)
+* **Luis Rosario** - *Member 1* - [Luisrosario2604](https://github.com/Luisrosario2604)
